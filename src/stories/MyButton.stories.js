@@ -22,6 +22,6 @@ Primary.args = {
 export const Secondary = (props) => <MyButton {...props} />
 
 // FORMA 3
-export const Tercary = (props) => (
+export const Tercary = ( ) => (
   <MyButton label="Boton 3" size="large" color="primary" variant="contained" />
 )
